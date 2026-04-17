@@ -5,7 +5,7 @@ function changeStatus() {
 }
 
 const inputValue = 10;
-const milesToKm = false;
+const milesToKm = true;
 
 
 let result = 0;
@@ -19,3 +19,6 @@ if (milesToKm === true) {
 const resultString = inputValue + " miles are " + result + " km";
 
 console.log(resultString);
+
+const resultElement = document.getElementById('resultElement');
+resultElement.innerHTML =resultString;

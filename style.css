@@ -19,11 +19,11 @@ button {
     cursor: pointer;
 }
 
-card {
+square {
     border: solid 2px rgb(8, 24, 69);
     border-radius: 2px;
     padding: 20px;
     margin: 20px;
     width: fit-content;
-    height: 100px;
+    height: fit-content;
 }
