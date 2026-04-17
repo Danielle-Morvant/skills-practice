@@ -32,13 +32,11 @@ margin: 20px 10px 20px 0px;
 padding: 0 29px 0 29px;
 }
 
-resultBox {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(8, 24, 69);
-    border-radius: 50%;
-    border: 4px solid rgb(8, 24, 69);
-    margin: 20px;
-    color: antiquewhite;
+p {
+  background-color: rgb(8, 24, 69);
+  color: white;
+  border-radius: 4px;
+  width: fit-content;
+  height: fit-content;
+  padding: 3px;
 }
