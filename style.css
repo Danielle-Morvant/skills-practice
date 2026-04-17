@@ -18,3 +18,12 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+card {
+    border: solid 2px rgb(8, 24, 69);
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    height: 100px;
+}

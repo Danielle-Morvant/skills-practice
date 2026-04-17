@@ -1,6 +1,21 @@
 console.log("Hello, World!");
 console.log("success!");
-
 function changeStatus() {
-    document.getElementById("learned").innerHTML = "..3..4..learning in progress!")
+    document.getElementById("learned").innerHTML = "..3..4..learning in progress!"
 }
+
+const inputValue = 10;
+const milesToKm = false;
+
+
+let result = 0;
+
+if (milesToKm === true) {
+ result = inputValue * 1.60934;
+} else {
+ result = inputValue / 1.60934;
+}
+
+const resultString = inputValue + " miles are " + result + " km";
+
+console.log(resultString);
