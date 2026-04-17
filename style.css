@@ -19,11 +19,9 @@ button {
     cursor: pointer;
 }
 
-square {
-    border: solid 2px rgb(8, 24, 69);
-    border-radius: 2px;
-    padding: 20px;
-    margin: 20px;
-    width: fit-content;
-    height: fit-content;
+.circle {
+background-color: rgb(126, 205, 234);
+width: 200px;
+height: 200px;
+border-radius: 50%;
 }
