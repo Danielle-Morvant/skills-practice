@@ -1,7 +1,13 @@
 console.log("Hello, World!");
 console.log("success!");
+
 function changeStatus() {
     document.getElementById("learned").innerHTML = "..3..4..learning in progress!"
+}
+
+function dailyStudy() {
+    const uno = document.querySelector("#studies");
+    uno.innerHTML = "coffee, code learning, breakfast, coding practice";
 }
 
 const inputValue = 10;
