@@ -28,10 +28,3 @@ function convert() {
     const resultElement = document.getElementById("resultElement");
     resultElement.innerHTML = resultString;
 }
-
-function checkDegrees() {
-    const inputDegree = document.getElementById("unitConverter").value;
-    const celciusToDegrees = 0;
-    let result = 0;
-
-}
