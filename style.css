@@ -2,20 +2,6 @@ html {
     background-color: aquamarine;
 }
 
-.studies{
-   position: absolute;
-   padding: 10px;
-   left: 10px;
-   top: 10px;  
-}
-
-.learned{
-    position: absolute;
-    padding: 10px;
-    right: 10px;
-    top: 10px;
-}
-
 p {
     color: rgb(8, 24, 69);
 }
@@ -53,4 +39,15 @@ p {
     width: fit-content;
     height: fit-content;
     padding: 3px;
+}
+
+
+#learned {
+    position: relative;
+    left: 200px;
+}
+
+#studies {
+    position: relative;
+    left: 200px;
 }
